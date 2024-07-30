@@ -1,5 +1,5 @@
 /*-----------------------------------------------------
-                RESET
+                CSS RESET
 ----------------------------------------------------*/
 * {
     padding:0;
@@ -7,4 +7,35 @@
     vertical-align:baseline;
     list-style:none;
     border:0
+}
+
+/*-----------------------------------------------------
+                Formatação geral
+----------------------------------------------------*/
+
+html {
+    font-size: calc(10px + 1vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html body a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*-----------------------------------------------------
+                Formatação da página
+----------------------------------------------------*/
+
+header nav ul{
+    display: flex;
+    justify-content: right;
+}
+
+header nav ul li{
+    margin: 4vw 10px 0 10px;
+}
+
+header nav ul li.atual a{
+    color: orangered;
 }
