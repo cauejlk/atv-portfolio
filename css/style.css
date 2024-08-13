@@ -2,11 +2,11 @@
                 CSS RESET
 ----------------------------------------------------*/
 * {
-    padding:0;
-    margin:0;
-    vertical-align:baseline;
-    list-style:none;
-    border:0
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
 }
 
 /*-----------------------------------------------------
@@ -16,26 +16,89 @@
 html {
     font-size: calc(10px + 1vw);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #21243d;
 }
-html body a{
+
+html body a {
     text-decoration: none;
-    color: black;
+    color: #21243d;
 }
 
 
 /*-----------------------------------------------------
-                Formatação da página
+                Formatação do topo página
 ----------------------------------------------------*/
 
-header nav ul{
+header {
+    margin: 0 3vw 5vw;
+}
+
+header nav ul {
     display: flex;
     justify-content: right;
 }
 
-header nav ul li{
+header nav ul li {
     margin: 4vw 10px 0 10px;
 }
 
-header nav ul li.atual a{
+header nav ul li.atual a {
     color: orangered;
+}
+
+/*-----------------------------------------------------
+                Formatação de conteudo
+----------------------------------------------------*/
+main.works {
+    margin: 0vw 20vw 0vw 15vw;
+}
+
+main.works h1 {
+    font-weight: normal;
+    margin: 0vw 0vw -1vw 0vw;
+}
+
+main.works section:last-child {
+    border: none;
+}
+
+main.works section {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 5vw 0vw 4vw 0vw;
+}
+
+main.works section p {
+    margin: 2vw 0vw 2vw 0vw;
+
+}
+
+main.works section p span {
+    color: white;
+    background-color: rgb(255, 115, 0);
+    border-radius: 30px;
+    padding: 2px 10px 2px 10px;
+    font-weight: bold;
+}
+
+/*-----------------------------------------------------
+                Formatação do rodape
+----------------------------------------------------*/
+
+footer {
+    text-align: center;
+    padding: 1vw 0vw 2vw 0vw;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0px 5px 5px 5px;
+    font-size: 1.4rem;
+}
+
+footer nav ul a span {
+    color: #ff0000;
 }
