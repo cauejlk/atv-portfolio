@@ -16,12 +16,12 @@
 html {
     font-size: calc(10px + 1vw);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #21243d;
+    color: #000000;
 }
 
 html body a {
     text-decoration: none;
-    color: #21243d;
+    color: #000000;
 }
 
 main {
